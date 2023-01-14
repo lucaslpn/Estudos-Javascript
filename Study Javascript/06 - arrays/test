@@ -1,0 +1,15 @@
+const alunos = ['Lucas', 'Gabi', 'Ana'];
+
+alunos.push(' Renan');
+
+alunos[4] = 'Vinicius';
+
+console.log(alunos);
+
+const nome = 'Lucas Pinto Nascimento'
+
+for (let i = 0; i < nome.length; i++) {
+  const letra = nome[i];
+  console.log(letra);
+  
+}
